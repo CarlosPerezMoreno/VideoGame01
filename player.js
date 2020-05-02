@@ -1,6 +1,6 @@
-const playerSpeed = 6;
-const gravity = 28;
-const jumpSpeed = 18;
+const playerSpeed = 8;
+const gravity = 33;
+const jumpSpeed = 20;
 
 function Player (initialPosition) {
     this.position = initialPosition.plus(new Vector(0, -0.5));
